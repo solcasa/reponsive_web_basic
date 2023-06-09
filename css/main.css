@@ -931,6 +931,20 @@
     border-top: 1px solid #ddd;
 }
 
+
+.to_top {
+    position: fixed;
+    bottom: 100px;
+    right: 100px;
+    z-index: 999;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+
+
 .to_top.on {
     bottom: 0;
     visibility: visible;
